@@ -1,0 +1,339 @@
+.panel {
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 15px 15px 10px 15px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid rgba(143, 154, 157, 0.2);
+}
+a.panel:hover{
+    transform: scale(1.02);
+}
+
+.panel_stage {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #757C84;
+    margin-bottom: 30px;
+}
+
+.panel_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel_watch{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.panel_watch-icon{
+    text-align: center;
+}
+
+.panel_watch-title{
+    text-transform: uppercase;
+    width: 45px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.panel .panel_watch-time {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.panel .panel_watch-date {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.panel_live{
+    display: block;
+    background: url("../../assets/images/logo-star_online.svg") top -12px right -16px / auto no-repeat;
+    border: 1px solid #EA5656;
+}
+
+.panel_upcoming {
+    display: block;
+    background: url("../../assets/images/logo-star_begin.svg") top -12px right -16px / auto no-repeat;
+    border: 1px solid rgba(143, 154, 157, 0.2);
+}
+
+.panel_upcoming .panel_watch-time {
+    color: #282830;
+}
+
+.panel_upcoming .panel_watch-date {
+    color: #757C84
+}
+
+.panel_finish{
+    display: block;
+    background: url("../../assets/images/logo-star_finish.svg") top -12px right -16px / auto no-repeat;
+}
+
+.panel_finish .panel_watch-time {
+    color: #757C84;
+}
+
+.panel_finish .panel_watch-date {
+    color: #757C84;
+}
+
+.panel_finish .panel_name:not(.panel_name--battles){
+    color:#757C84;
+}
+
+.panel_finish .panel_score{
+    color:#757C84; 
+}
+
+.panel_icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.panel_icon{
+    margin-right: 12px;
+    line-height: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.panel_wrap{
+    margin-bottom: 8px;
+    flex-grow: 1;
+}
+
+.panel_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.panel_row.panel_row-winner .panel_name {
+    color:  #282830;
+}
+
+.panel_row.panel_row-winner .panel_score {
+    color:  #282830;
+}
+
+.panel_name {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282830;
+    margin-right: 5px;
+}
+
+.panel_name--battles{
+    color:  #282830;
+}
+
+.panel_coefficient{
+    min-width: 55px;
+    height: 20px;
+    background: #FAFAFA;
+    border: 1px solid rgba(151, 151, 151, 0.1);
+    font-weight: 700    ;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #282830;
+}
+
+.panel_score{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #282830;
+    margin-right: 5px;
+}
+
+.panel_sistems{
+    display: flex;
+    flex-grow: 1;
+    flex-flow: wrap;
+}
+
+.panel_sistems li{
+    position: relative;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #757C84;
+}
+
+.panel_sistems li:not(:first-child){
+    padding-left: 15px;
+}
+
+.panel_sistems li:not(:first-child):before{
+    content: "";
+    margin-right: 5px;
+    display: block;
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #757C84;
+}
+
+.panel_partner{
+    line-height: 0px;
+}
+
+.panel_inform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.panel_matches {
+    background: #F0F0F0;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 4px;
+    min-width: 105px;
+    color: #757C84;
+}
+
+.panel_sistems-victor{
+    padding-left: 25px;
+    position: relative;
+}
+
+.panel_sistems-victor:before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("../../assets/images/battles_winner_icon.png") center top / auto no-repeat;
+}
+
+@media(min-width: 768px){
+    .panels-list{
+        display: flex;
+        flex-flow: wrap;
+    }
+    .panel{
+        width: calc((100% - 35px ) / 2);
+        margin-right: 35px;
+        margin-bottom: 35px;
+    }
+    .panel:nth-child(2n + 2){
+        margin-right: 0px;
+    }
+    .panel_stage{
+        margin-bottom: 75px;
+        font-size: 14px;
+    }
+    .panel .panel_watch-date {
+        font-size: 14px;
+    }
+    .panel_wrap{
+        margin-bottom: 15px;
+    }
+    .panel_icons{
+        margin-bottom: 15px;
+    }
+    .panel_icon{
+        height: 50px;
+        width: 50px;
+    }
+    .panel_matches{
+        font-size: 14px;
+    }
+    .panel_sistems li{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 992px){
+    .panel{
+        width: calc((100% - 70px ) / 3);
+        margin-right: 35px;
+        margin-bottom: 35px;
+    }
+    .panel:nth-child(2n + 2){
+        margin-right: 35px;
+    }
+    .panel:nth-child(3n + 3){
+        margin-right: 0px;
+    }
+    .panel_stage{
+        margin-bottom: 75px;
+        font-size: 14px;
+    }
+    .panel_icons{
+        margin-bottom: 15px;
+    }
+    .panel_icon{
+        height: 50px;
+        width: 50px;
+    }
+    .panel_sistems li{
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 1480px){
+    .panel{
+        background-size: 220px 190px;
+        padding: 25px 20px 20px 20px;
+        width: calc((100% - 105px ) / 4);
+    }
+    .panel:nth-child(3n + 3){
+        margin-right: 35px;
+    }
+    .panel:nth-child(4n + 4){
+        margin-right: 0px;
+    }
+    
+    .panel_stage{
+        margin-bottom: 120px;
+    }
+    .panel_watch {
+        right: 25px;
+        top: 25px;
+    }
+    .panel_watch-title{
+        width: auto;
+        font-size: 14px;
+    }
+    .panel_watch-icon{
+        text-align: right;
+    }
+    .panel_watch-icon img{
+        width: 35px;
+        height: 35px;
+    }
+}

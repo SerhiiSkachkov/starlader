@@ -1,0 +1,9 @@
+.battles{
+    padding: 60px 0px 60px;
+}
+
+@media(min-width: 768px){
+    .battles {
+        padding: 90px 0px 90px;
+    }
+}

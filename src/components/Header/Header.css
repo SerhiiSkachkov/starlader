@@ -1,0 +1,32 @@
+.header{
+    padding: 90px 0px 90px;
+    background: url("../../assets/images/header_bg_sm.jpg") center top / cover no-repeat;
+}
+.header h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.15;
+    color: #fff;
+}
+@media(min-width: 768px){
+    .header{
+        padding: 120px 0px 120px;
+        background: 
+            url("../../assets/images/header_bg_star_xl.svg") bottom left / contain no-repeat, 
+            url("../../assets/images/header_bg_xl.jpg") center top / cover no-repeat;
+    }
+    .header h1 {
+        font-size: 75px;
+    }
+}
+
+@media(min-width: 1200px){
+    .header{
+        padding: 125px 0px 135px;
+    }
+    .header h1 {
+        font-size: 100px;
+    }
+}
