@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/starladergi/static/css/main.a6f7ebf7.chunk.css",
+    "main.js": "/starladergi/static/js/main.610e48f5.chunk.js",
+    "main.js.map": "/starladergi/static/js/main.610e48f5.chunk.js.map",
+    "runtime-main.js": "/starladergi/static/js/runtime-main.25ad1d83.js",
+    "runtime-main.js.map": "/starladergi/static/js/runtime-main.25ad1d83.js.map",
+    "static/js/2.788c7e29.chunk.js": "/starladergi/static/js/2.788c7e29.chunk.js",
+    "static/js/2.788c7e29.chunk.js.map": "/starladergi/static/js/2.788c7e29.chunk.js.map",
+    "index.html": "/starladergi/index.html",
+    "precache-manifest.8e6c23a15f2e5c58c1037413841a9c80.js": "/starladergi/precache-manifest.8e6c23a15f2e5c58c1037413841a9c80.js",
+    "service-worker.js": "/starladergi/service-worker.js",
+    "static/css/main.a6f7ebf7.chunk.css.map": "/starladergi/static/css/main.a6f7ebf7.chunk.css.map",
+    "static/js/2.788c7e29.chunk.js.LICENSE.txt": "/starladergi/static/js/2.788c7e29.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/starladergi/static/media/Robotothin.a11d03f7.woff",
+    "static/media/Header.css": "/starladergi/static/media/header_bg_xl.e5e57358.jpg",
+    "static/media/Panel.css": "/starladergi/static/media/logo-star_online.b342e38e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25ad1d83.js",
+    "static/js/2.788c7e29.chunk.js",
+    "static/css/main.a6f7ebf7.chunk.css",
+    "static/js/main.610e48f5.chunk.js"
+  ]
+}
