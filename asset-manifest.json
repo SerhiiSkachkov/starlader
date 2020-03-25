@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/starlader/static/css/main.7af19f99.chunk.css",
-    "main.js": "/starlader/static/js/main.610e48f5.chunk.js",
-    "main.js.map": "/starlader/static/js/main.610e48f5.chunk.js.map",
+    "main.js": "/starlader/static/js/main.c8f0c28d.chunk.js",
+    "main.js.map": "/starlader/static/js/main.c8f0c28d.chunk.js.map",
     "runtime-main.js": "/starlader/static/js/runtime-main.089a3d86.js",
     "runtime-main.js.map": "/starlader/static/js/runtime-main.089a3d86.js.map",
     "static/js/2.788c7e29.chunk.js": "/starlader/static/js/2.788c7e29.chunk.js",
     "static/js/2.788c7e29.chunk.js.map": "/starlader/static/js/2.788c7e29.chunk.js.map",
     "index.html": "/starlader/index.html",
-    "precache-manifest.40b724655b620cb027eb398d42531f8e.js": "/starlader/precache-manifest.40b724655b620cb027eb398d42531f8e.js",
+    "precache-manifest.9d719cdce08fb3ee40b068e8f41f7465.js": "/starlader/precache-manifest.9d719cdce08fb3ee40b068e8f41f7465.js",
     "service-worker.js": "/starlader/service-worker.js",
     "static/css/main.7af19f99.chunk.css.map": "/starlader/static/css/main.7af19f99.chunk.css.map",
     "static/js/2.788c7e29.chunk.js.LICENSE.txt": "/starlader/static/js/2.788c7e29.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.089a3d86.js",
     "static/js/2.788c7e29.chunk.js",
     "static/css/main.7af19f99.chunk.css",
-    "static/js/main.610e48f5.chunk.js"
+    "static/js/main.c8f0c28d.chunk.js"
   ]
 }
